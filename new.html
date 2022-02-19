@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz</title>
+    <link rel="stylesheet" href="new.css">
+    <script src="new.js"></script>
+</head>
+<body>
+    <div class="form" id="fm">
+        <div class="quiz"><img src="image.png" class="img">Newton JS MCQ Quiz</div>
+    <ol>
+        <li>
+            <div class="full">
+            <div class="qus">
+            <label>Inside which HTML element do we put the JavaScript?</label></div>
+            <div class="option" id="reset">
+            <div class="opt"><input type="radio" value="1" name="q1">&ltscript&gt &lt/script&gt</input></div>
+            <div class="opt"><input type="radio" value="0" name="q1">&ltjavascript&gt &lt/javascript&gt</input></div>
+            <div class="opt"><input type="radio" value="0" name="q1">&ltscripting&gt &lt/scripting&gt</input></div>
+            <div class="opt"><input type="radio" value="0" name="q1">&ltjs&gt &lt/js&gt</input> </div> 
+        </div>
+        <input type="hidden" name="jq1" id="jq1" />
+    </div>
+        </li>
+        <li>
+            <div class="full" >
+            <div class="qus"><label>What is the correct JavaScript syntax to change the content of the HTML element below?</label></div>
+            <div class="demo">&ltp id="demo" &gtThis is a demonstration.&lt/p&gt</div>
+
+
+            <div class="option"id="reset">
+            <div class="opt"><input type="radio" value="1" name="q2">document.getElementbyId("demo").innerHTML = "Hello World!";</input></div>
+            <div class="opt"><input type="radio" value="0" name="q2">document.getElementbyName("p").innerHTML = "Hello World!";</input></div>
+            <div class="opt"><input type="radio" value="0" name="q2">#demo.innerHTML = "Hello World!";</input></div>
+            <div class="opt"><input type="radio" value="0" name="q2">document.getElement("p").innerHTML = "Hello World!";</input> </div> 
+        </div>
+        <input type="hidden" name="jq2" id="jq2" />
+        </div>
+        </li>
+
+        <li>
+            <div class="full">
+            <div class="qus">
+            <label>Where is the correct place to insert a JavaScript?</label></div>
+            <div class="option" id="reset">
+            <div class="opt"><input type="radio" value="1" name="q3" id="reset">Both the &lthead&gt section and &ltbody&gt section are correct</input></div>
+            <div class="opt"><input type="radio" value="0" name="q3"id="reset">the &lthead&gt Section</input></div>
+            <div class="opt"><input type="radio" value="0" name="q3"id="reset">the &ltbody&gt section</input></div>
+            <div class="opt"><input type="radio" value="0" name="q3"id="reset">None</input> </div> 
+        </div>
+        <input type="hidden" name="jq3" id="jq3" />
+        </div>
+        </li>
+
+        <li>
+            <div class="full">
+            <div class="qus">
+            <label>What is the correct syntax for referring to an external script called "xxx.js"?</label></div>
+            <div class="option" id="reset">
+            <div class="opt"><input type="radio" value="1" name="q4">&ltscript src = "xxx.js"&gt</input></div>
+            <div class="opt"><input type="radio" value="0" name="q4">&ltscript href = "xxx.js&gt</input></div>
+            <div class="opt"><input type="radio" value="0" name="q4">&ltscript name = "xxx.js&gt</input></div>
+            <div class="opt"><input type="radio" value="0" name="q4">&ltscript link ="xxx.js&gt</input> </div> 
+        </div>
+        <input type="hidden" name="jq4" id="jq4" />
+    </div>
+        </li>
+
+        <li>
+            <div class="full">
+            <div class="qus">
+            <label>How do you write "Hello World" in an alert box?</label></div>
+            <div class="option" id="reset">
+            <div class="opt"><input type="radio" value="0" name="q5" id="reset">alertBox("Hello World");</input></div>
+            <div class="opt"><input type="radio" value="1" name="q5" id="reset">alert("Hello World");</input></div>
+            <div class="opt"><input type="radio" value="0" name="q5" id="reset">msg("Hello World");</input></div>
+            <div class="opt"><input type="radio" value="0" name="q5" id="reset">msgBox("Hello World");</input> </div> 
+        </div>
+        <input type="hidden" name="jq5" id="jq5" />
+    </div>
+</li>  
+    </ol>
+
+<div class="div">
+    <button name="Form1" class="button" onclick="result()">Submit Button &#129310</button>
+</div>
+</div >
+
+</div>
+</body>
+</html>
